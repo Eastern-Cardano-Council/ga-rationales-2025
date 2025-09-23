@@ -1,0 +1,1 @@
+Rationales published by the Eastern Cardano Council relating to decisions about the constitutionality of Cardano governance actions during our 2025 to 2027 term.
