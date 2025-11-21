@@ -66,5 +66,15 @@
       "didNotVote": 0
     },
     "references": []
-  }
+  },
+  "authors": [
+    {
+      "name": "Eastern Cardano Council",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "a12e0d6516828fd47afc70e2eccdfa11a4f4c76cb5eca55bdc9349865a70e4fe",
+        "signature": "e6033ea8fdb80460356859804acc7065367d1ac195491849853701d1ba74c3f1111ac3e4af24b4b9ae4795d3963be3de08e0ac8edc95032de60e16091d49880f"
+      }
+    }
+  ]
 }
