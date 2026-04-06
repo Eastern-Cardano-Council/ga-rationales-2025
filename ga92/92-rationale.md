@@ -2,7 +2,7 @@
 We have determined that this treasury withdrawal governance action is constitutional.
 
 ## Rationale Statement
-The governance action with ID “” and title “” is a Treasury Withdrawal, and is therefore subject to the following sections and guardrails in the Cardano Constitution.
+The governance action with ID “gov_action1uhzd06a26qavzflvrx3gvcz6rzxkl6su2ns8t3seef5e8dl6nlgsqcgtufg” and title “Cardano Defi Liquidity Budget - Withdrawal 1” is a Treasury Withdrawal, and is therefore subject to the following sections and guardrails in the Cardano Constitution.
 
 ARTICLE II, Section 6 of the Cardano Constitution states that governance actions must follow a standardized and legible format, including a URL hosting an immutable document and a corresponding hash, and must provide sufficient rationale including a title, abstract, justification, and supporting materials.
 
@@ -14,10 +14,10 @@ ARTICLE II, Section 7 specifies that Treasury Withdrawal governance actions must
 
 This governance action specifies:
 
-- The purpose of the withdrawal is “”
-- The period for delivery of proposed activities as “”
-- The relevant costs and expenses under ""
-- The circumstances under which funds may be refunded to the Cardano Treasury as “”
+- The purpose of the withdrawal is "for establishing the legal and technical infrastructure required to implement the Stablecoin DeFi Liquidity Budget”
+- The period for delivery of proposed activities “shall be completed within 6 months”
+- The relevant costs and expenses under section 1.5, which is titled "Detailed Cost Breakdown"
+- The circumstances under which funds may be refunded to the Cardano Treasury as “Service provider non-performance”, “Cost savings”, “Legal formation impossibility”, “Technical impossibility”, ”Governance changes” and “Completion with remainder”
 
 These elements fulfil the requirements of Article II, Section 7(1).
 
@@ -25,7 +25,7 @@ These elements fulfil the requirements of Article II, Section 7(1).
 
 ARTICLE II, Section 7(2) requires disclosure of whether the prospective recipient has received ada from the Cardano Treasury within the last 24 months.
 
-This governance action states that “”  This fulfils the requirement of ARTICLE II, Section 7(2).
+This governance action states that “The Stablecoin DeFi Liquidity Interim Committee has not received ada from the Cardano Treasury within the last 24 months.”  This fulfils the requirement of ARTICLE II, Section 7(2).
 
 3\. Net Change Limit (NCL)
 
@@ -35,10 +35,10 @@ The Net Change Limit in effect at the time of submission of this vote on-chain i
 
 - A. Current NCL Amount:  350000000 ada
 - B. Current NCL Time Period: Epoch 613 to Epoch 713 (Inclusive)
-- C. Total of Treasury Withdrawals within the Current NCL Time Period: ?? ada
-- D. Amount of this Treasury Withdrawal: ?? ada
-- E. “C” plus “D” = ?? ada
-- F. “A” minus “E” = ?? ada
+- C. Total of Treasury Withdrawals within the Current NCL Time Period: 10142000 ada
+- D. Amount of this Treasury Withdrawal: 800000 ada
+- E. “C” plus “D” = 10942000 ada
+- F. “A” minus “E” = 339058000 ada
 
 As the value of “F” is greater than or equal to zero, this governance action fulfils the NCL requirement.
 
@@ -46,13 +46,13 @@ As the value of “F” is greater than or equal to zero, this governance action
 
 ARTICLE II, Section 7(4) states “Treasury Withdrawals actions shall require an allocation of ada as a part of such funding request to cover the cost of periodic independent audits and the implementation of oversight metrics as to the use of such ada.”
 
-This governance action states that "", which fulfils the requirements of ARTICLE II, Section 7(4).
+While this governance action states that "111,000 ADA is allocated for an independent security audit of the smart contract", it is questionable whether the intent of this requirement relates to auditing smart contracts or auditing the ongoing use of funds. It does however specify that "oversight metrics will be implemented and published monthly on the Cardano governance forum".  We have determined that while clearer compliance language could have been used, these statements do just fulfil the requirements of ARTICLE II, Section 7(4).
 
 5\. Designated Administrators
 
 ARTICLE II, Section 7(5) requires that one or more administrators are designated to monitor fund usage and ensure deliverables are achieved.
 
-This governance action states that “” will be used as an administrator, which fulfils this requirement.
+This governance action states that a “nine-person Interim Committee serves as the designated administrators for this withdrawal”, which fulfils this requirement.
 
 6\. Fund Management Requirements
 
@@ -60,7 +60,7 @@ ARTICLE II, Section 7(6) states “Any ada received from a Cardano Blockchain tr
 
 This governance action specifies the following withdrawal address, which at the time of assessment is not delegated to an SPO and is delegated to the auto abstain voting option:
 
-- ??
+- stake17x2x5cv4nlwptph8kxvnyw93pp2sp54dk54dpfp2ax7fkggaj3ty4
 
 Finally, the guardrails that require consideration for this governance action are TREASURY-01a, TREASURY-02a, and TREASURY-03a.  These are addressed as follows:
 
@@ -80,9 +80,9 @@ None
 This governance action sufficiently fulfils the criteria specified for treasury withdrawals in the Cardano Constitution, so is deemed constitutional.
 
 ## Internal Vote
-- Constitutional: 0
+- Constitutional: 5
 - Unconstitutional: 0
-- Abstain: 0
+- Abstain: 2
 - Did Not Vote: 0
 
 ## References

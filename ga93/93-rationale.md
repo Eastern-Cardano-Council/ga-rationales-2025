@@ -2,7 +2,7 @@
 We have determined that this treasury withdrawal governance action is constitutional.
 
 ## Rationale Statement
-The governance action with ID “” and title “” is a Treasury Withdrawal, and is therefore subject to the following sections and guardrails in the Cardano Constitution.
+The governance action with ID “gov_action13qr78nhrhetywapvx2wpm63y9uxpc2dc45zsu9gkncasxqhuhltqqqfu32x” and title “Cardano x Draper Dragon: Orion Fund” is a Treasury Withdrawal, and is therefore subject to the following sections and guardrails in the Cardano Constitution.
 
 ARTICLE II, Section 6 of the Cardano Constitution states that governance actions must follow a standardized and legible format, including a URL hosting an immutable document and a corresponding hash, and must provide sufficient rationale including a title, abstract, justification, and supporting materials.
 
@@ -14,10 +14,10 @@ ARTICLE II, Section 7 specifies that Treasury Withdrawal governance actions must
 
 This governance action specifies:
 
-- The purpose of the withdrawal is “”
-- The period for delivery of proposed activities as “”
-- The relevant costs and expenses under ""
-- The circumstances under which funds may be refunded to the Cardano Treasury as “”
+- The purpose of the withdrawal is “for investment into the Orion Fund”
+- The period for delivery is stated as “for Tranche One in the first year of the overall plan”
+- The relevant costs and expenses under section 1.2, which is titled "Intended Use of Capital for Tranche One"
+- The circumstances under which funds may be refunded to the Cardano Treasury as “for whatever reason, the Orion Fund does not commence operations after the withdrawal has been enacted.”
 
 These elements fulfil the requirements of Article II, Section 7(1).
 
@@ -25,7 +25,7 @@ These elements fulfil the requirements of Article II, Section 7(1).
 
 ARTICLE II, Section 7(2) requires disclosure of whether the prospective recipient has received ada from the Cardano Treasury within the last 24 months.
 
-This governance action states that “”  This fulfils the requirement of ARTICLE II, Section 7(2).
+This governance action states that “Neither Arouet Holdings as proposer nor the Orion Fund has received funds from the Treasury within the past 2 years.”  This fulfils the requirement of ARTICLE II, Section 7(2).
 
 3\. Net Change Limit (NCL)
 
@@ -35,10 +35,10 @@ The Net Change Limit in effect at the time of submission of this vote on-chain i
 
 - A. Current NCL Amount:  350000000 ada
 - B. Current NCL Time Period: Epoch 613 to Epoch 713 (Inclusive)
-- C. Total of Treasury Withdrawals within the Current NCL Time Period: ?? ada
-- D. Amount of this Treasury Withdrawal: ?? ada
-- E. “C” plus “D” = ?? ada
-- F. “A” minus “E” = ?? ada
+- C. Total of Treasury Withdrawals within the Current NCL Time Period: 10142000 ada
+- D. Amount of this Treasury Withdrawal: 50000000 ada
+- E. “C” plus “D” = 60142000 ada
+- F. “A” minus “E” = 289858000 ada
 
 As the value of “F” is greater than or equal to zero, this governance action fulfils the NCL requirement.
 
@@ -46,13 +46,13 @@ As the value of “F” is greater than or equal to zero, this governance action
 
 ARTICLE II, Section 7(4) states “Treasury Withdrawals actions shall require an allocation of ada as a part of such funding request to cover the cost of periodic independent audits and the implementation of oversight metrics as to the use of such ada.”
 
-This governance action states that "", which fulfils the requirements of ARTICLE II, Section 7(4).
+While this governance action does not explicitly state that "an allocation of ada" will be used for “periodic independent audits”, it does refer to oversight under Section 6 "Transparency, Oversight & Reporting" including "A public dashboard built by Draper Dragon is expected to display real-time ecosystem KPIs" and "a public Quarterly Fund Report".  The majority of ECC members believe that this sufficiently fulfils the requirements of ARTICLE II, Section 7(4).
 
 5\. Designated Administrators
 
 ARTICLE II, Section 7(5) requires that one or more administrators are designated to monitor fund usage and ensure deliverables are achieved.
 
-This governance action states that “” will be used as an administrator, which fulfils this requirement.
+This governance action states that the “Cardano Foundation has orchestrated the setup of Arouet Holdings and will act as administrator for purposes of the Cardano constitution”, which fulfils this requirement.
 
 6\. Fund Management Requirements
 
@@ -60,7 +60,7 @@ ARTICLE II, Section 7(6) states “Any ada received from a Cardano Blockchain tr
 
 This governance action specifies the following withdrawal address, which at the time of assessment is not delegated to an SPO and is delegated to the auto abstain voting option:
 
-- ??
+- stake1u99m2kxsvdwlulg4l6qwjrpvayzrzwk0fugnvu3uklfqtws257z0g
 
 Finally, the guardrails that require consideration for this governance action are TREASURY-01a, TREASURY-02a, and TREASURY-03a.  These are addressed as follows:
 
@@ -74,15 +74,15 @@ We therefore find this governance action **Constitutional**.
 None
 
 ## Counterargument Discussion
-None
+The dissenting voter believed that, due to the relatively simple requirement of needing to specify “an allocation of ada as a part of such funding request to cover the cost of periodic independent audits and the implementation of oversight metrics as to the use of such ada”, that as this governance action did not sufficiently address this requirement, it should be found unconstitutional.
 
 ## Conclusion
 This governance action sufficiently fulfils the criteria specified for treasury withdrawals in the Cardano Constitution, so is deemed constitutional.
 
 ## Internal Vote
-- Constitutional: 0
-- Unconstitutional: 0
-- Abstain: 0
+- Constitutional: 4
+- Unconstitutional: 1
+- Abstain: 2
 - Did Not Vote: 0
 
 ## References

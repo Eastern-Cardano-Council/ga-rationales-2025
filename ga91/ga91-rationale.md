@@ -2,7 +2,7 @@
 We have determined that this treasury withdrawal governance action is constitutional.
 
 ## Rationale Statement
-The governance action with ID “” and title “” is a Treasury Withdrawal, and is therefore subject to the following sections and guardrails in the Cardano Constitution.
+The governance action with ID “gov_action17dfgtkeufcy945e3ssanqpmn09ft3gezhvepvvg7msmlmaz260dqqjtsmpe” and title “Dingo: a Production-Grade Block Producer in Go by Blink Labs” is a Treasury Withdrawal, and is therefore subject to the following sections and guardrails in the Cardano Constitution.
 
 ARTICLE II, Section 6 of the Cardano Constitution states that governance actions must follow a standardized and legible format, including a URL hosting an immutable document and a corresponding hash, and must provide sufficient rationale including a title, abstract, justification, and supporting materials.
 
@@ -14,10 +14,10 @@ ARTICLE II, Section 7 specifies that Treasury Withdrawal governance actions must
 
 This governance action specifies:
 
-- The purpose of the withdrawal is “”
-- The period for delivery of proposed activities as “”
-- The relevant costs and expenses under ""
-- The circumstances under which funds may be refunded to the Cardano Treasury as “”
+- The purpose of the withdrawal is “to fund Dingo's development to production readiness”
+- The period for delivery of proposed activities as “We're requesting a single treasury withdrawal to cover twelve months of development.”
+- The relevant costs and expenses under the heading "Budget Breakdown"
+- The circumstances under which funds may be refunded to the Cardano Treasury as “Unused ADA sweeps back to the treasury at contract expiration.”
 
 These elements fulfil the requirements of Article II, Section 7(1).
 
@@ -25,7 +25,7 @@ These elements fulfil the requirements of Article II, Section 7(1).
 
 ARTICLE II, Section 7(2) requires disclosure of whether the prospective recipient has received ada from the Cardano Treasury within the last 24 months.
 
-This governance action states that “”  This fulfils the requirement of ARTICLE II, Section 7(2).
+This governance action states that “Our prior Cardano funding has come from Project Catalyst (which funded gOuroboros development and initial Dingo work) and from self-funding. We're PRAGMA members, but we haven't received any funds from Amaru's treasury proposal or any other treasury withdrawal despite our membership.”  This fulfils the requirement of ARTICLE II, Section 7(2).
 
 3\. Net Change Limit (NCL)
 
@@ -35,10 +35,10 @@ The Net Change Limit in effect at the time of submission of this vote on-chain i
 
 - A. Current NCL Amount:  350000000 ada
 - B. Current NCL Time Period: Epoch 613 to Epoch 713 (Inclusive)
-- C. Total of Treasury Withdrawals within the Current NCL Time Period: ?? ada
-- D. Amount of this Treasury Withdrawal: ?? ada
-- E. “C” plus “D” = ?? ada
-- F. “A” minus “E” = ?? ada
+- C. Total of Treasury Withdrawals within the Current NCL Time Period: 10142000 ada
+- D. Amount of this Treasury Withdrawal: 6900000 ada
+- E. “C” plus “D” = 17042000 ada
+- F. “A” minus “E” = 332958000 ada
 
 As the value of “F” is greater than or equal to zero, this governance action fulfils the NCL requirement.
 
@@ -46,13 +46,13 @@ As the value of “F” is greater than or equal to zero, this governance action
 
 ARTICLE II, Section 7(4) states “Treasury Withdrawals actions shall require an allocation of ada as a part of such funding request to cover the cost of periodic independent audits and the implementation of oversight metrics as to the use of such ada.”
 
-This governance action states that "", which fulfils the requirements of ARTICLE II, Section 7(4).
+While this governance action does not explicitly state that "an allocation of ada" will be used for “periodic independent audits”, it does state that "Anyone can verify. Quarterly financials published with category-level detail." The majority of ECC members believe that this sufficiently fulfils the requirements of ARTICLE II, Section 7(4).
 
 5\. Designated Administrators
 
 ARTICLE II, Section 7(5) requires that one or more administrators are designated to monitor fund usage and ensure deliverables are achieved.
 
-This governance action states that “” will be used as an administrator, which fulfils this requirement.
+This governance action states that “Audited SundaeSwap smart contracts with an independent oversight board” will be used as an administrator, which fulfils this requirement.
 
 6\. Fund Management Requirements
 
@@ -60,7 +60,7 @@ ARTICLE II, Section 7(6) states “Any ada received from a Cardano Blockchain tr
 
 This governance action specifies the following withdrawal address, which at the time of assessment is not delegated to an SPO and is delegated to the auto abstain voting option:
 
-- ??
+- stake1790c5a0h3qwkxquehkdg746ccaa3hdfzgp7ckx6wzdpp7lq6ysdg0
 
 Finally, the guardrails that require consideration for this governance action are TREASURY-01a, TREASURY-02a, and TREASURY-03a.  These are addressed as follows:
 
@@ -68,21 +68,21 @@ Finally, the guardrails that require consideration for this governance action ar
 - TREASURY-02a - As per the above assessment, this treasury withdrawal does not exceed the current Net Change Limit.
 - TREASURY-03a - This treasury withdrawal is denominated in ada.
 
-We therefore find this governance action **Constitutional**.
+By way of a split decision we therefore find this governance action **Constitutional**.
 
 ## Precedent Discussion
 None
 
 ## Counterargument Discussion
-None
+The dissenting voter believed that, due to the relatively simple requirement of needing to specify “an allocation of ada as a part of such funding request to cover the cost of periodic independent audits and the implementation of oversight metrics as to the use of such ada”, that as this governance action did not sufficiently address this requirement, it should be found unconstitutional.
 
 ## Conclusion
 This governance action sufficiently fulfils the criteria specified for treasury withdrawals in the Cardano Constitution, so is deemed constitutional.
 
 ## Internal Vote
-- Constitutional: 0
-- Unconstitutional: 0
-- Abstain: 0
+- Constitutional: 4
+- Unconstitutional: 1
+- Abstain: 2
 - Did Not Vote: 0
 
 ## References
