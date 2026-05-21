@@ -2,7 +2,7 @@
 We have determined that this treasury withdrawal governance action is constitutional.
 
 ## Rationale Statement
-The governance action with ID "gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qyxkn2yk" and title “IO: Consensus Initiative” is a Treasury Withdrawal, and is therefore subject to the following sections and guardrails in the Cardano Constitution.
+The governance action with ID "gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qyxkn2yk" and title "IO: Consensus Initiative" is a Treasury Withdrawal, and is therefore subject to the following sections and guardrails in the Cardano Constitution.
 
 ARTICLE II, Section 6 of the Cardano Constitution states that governance actions must follow a standardized and legible format, including a URL hosting an immutable document and a corresponding hash, and must provide sufficient rationale including a title, abstract, justification, and supporting materials.
 
@@ -14,7 +14,7 @@ ARTICLE II, Section 7 specifies that Treasury Withdrawal governance actions must
 
 This governance action specifies:
 
-- The purpose of the withdrawal is “the path from public testnet to a mainnet-ready release candidate” for Leios
+- The purpose of the withdrawal is "the path from public testnet to a mainnet-ready release candidate" for Leios
 - Under the heading "Deliverables & Roadmap" the period for delivery of the proposed activities is between Q4 2026 and Q1 2027
 - The relevant costs and expenses under the heading "Budget"
 - The circumstances under which funds may be refunded to the Cardano Treasury as "All funds not disbursed by the end of the delivery period will be returned to the Cardano Treasury. A final reconciliation will be published as part of the oversight reporting cycle. In the event of partial delivery or scope reduction, unspent funds associated with cancelled or reduced deliverables will be returned proportionally."
@@ -25,26 +25,26 @@ These elements fulfil the requirements of Article II, Section 7(1).
 
 ARTICLE II, Section 7(2) requires disclosure of whether the prospective recipient has received ada from the Cardano Treasury within the last 24 months.
 
-This governance action states that “IO and its affiliated entities has been accountable for delivery of work funded by the Cardano Treasury. The total funds allocated has been ₳130,708,860 across a number of projects…”.  This fulfils the requirement of ARTICLE II, Section 7(2).
+This governance action states that "IO and its affiliated entities has been accountable for delivery of work funded by the Cardano Treasury. The total funds allocated has been ₳130,708,860 across a number of projects…".  This fulfils the requirement of ARTICLE II, Section 7(2).
 
 3\. Net Change Limit (NCL)
 
 ARTICLE II, Section 7(3) requires that Treasury Withdrawals must not exceed the Net Change Limit.
 
-The Net Change Limit in effect at the time of submission of this vote on-chain is the governance action with ID “gov_action1m3xx08yv788vfxqh6nfvrjtvmqpwezsy0ggaczctkyjmttc2wmxsq4jsr7q”.
+The Net Change Limit in effect at the time of submission of this vote on-chain is the governance action with ID "gov_action1m3xx08yv788vfxqh6nfvrjtvmqpwezsy0ggaczctkyjmttc2wmxsq4jsr7q".
 
 - A. Current NCL Amount: 350000000 ada
 - B. Current NCL Time Period: Epoch 613 to Epoch 713 (Inclusive)
 - C. Total of Treasury Withdrawals within the Current NCL Time Period: 67842000 ada
 - D. Amount of this Treasury Withdrawal: 27714342 ada
-- E. “C” plus “D” = 95556342 ada
-- F. “A” minus “E” = 254443658 ada
+- E. "C" plus "D" = 95556342 ada
+- F. "A" minus "E" = 254443658 ada
 
-As the value of “F” is greater than or equal to zero, this governance action fulfils the NCL requirement.
+As the value of "F" is greater than or equal to zero, this governance action fulfils the NCL requirement.
 
 4\. Audit Allocation and Oversight Metrics
 
-ARTICLE II, Section 7(4) states “Treasury Withdrawals actions shall require an allocation of ada as a part of such funding request to cover the cost of periodic independent audits and the implementation of oversight metrics as to the use of such ada.”
+ARTICLE II, Section 7(4) states "Treasury Withdrawals actions shall require an allocation of ada as a part of such funding request to cover the cost of periodic independent audits and the implementation of oversight metrics as to the use of such ada."
 
 This governance action states that "Acceptance of the work will be supported by a 3rd Party Assurer, who will be responsible for reviewing and signing off the work completed at each project milestone against the corresponding milestone deliverables detailed within the Legal Contract. This work is funded from a portion of this treasury withdrawal.", which fulfils the requirements of ARTICLE II, Section 7(4).
 
@@ -52,11 +52,11 @@ This governance action states that "Acceptance of the work will be supported by 
 
 ARTICLE II, Section 7(5) requires that one or more administrators are designated to monitor fund usage and ensure deliverables are achieved.
 
-This governance action states that “A written off-chain Legal Contract will be created between Input Output and the Cardano Development Holdings (CDH), as mandated by the Constitution, and will be administered by Intersect.”, which fulfils this requirement.
+This governance action states that "A written off-chain Legal Contract will be created between Input Output and the Cardano Development Holdings (CDH), as mandated by the Constitution, and will be administered by Intersect.", which fulfils this requirement.
 
 6\. Fund Management Requirements
 
-ARTICLE II, Section 7(6) states “Any ada received from a Cardano Blockchain treasury withdrawal, so long as such ada is being held by an administrator prior to further disbursement to the Treasury Withdrawal Recipient, must be kept in one or more separate accounts that can be audited by the Cardano Community, and such accounts shall not be delegated to an SPO but must be delegated to the predefined abstain voting option.”
+ARTICLE II, Section 7(6) states "Any ada received from a Cardano Blockchain treasury withdrawal, so long as such ada is being held by an administrator prior to further disbursement to the Treasury Withdrawal Recipient, must be kept in one or more separate accounts that can be audited by the Cardano Community, and such accounts shall not be delegated to an SPO but must be delegated to the predefined abstain voting option."
 
 This governance action specifies the following withdrawal address, which at the time of assessment is not delegated to an SPO and is delegated to the auto abstain voting option:
 
@@ -64,7 +64,7 @@ This governance action specifies the following withdrawal address, which at the 
 
 Finally, the guardrails that require consideration for this governance action are TREASURY-01a, TREASURY-02a, and TREASURY-03a.  These are addressed as follows:
 
-- TREASURY-01a - The net change limit with governance action ID “gov_action1m3xx08yv788vfxqh6nfvrjtvmqpwezsy0ggaczctkyjmttc2wmxsq4jsr7q” is currently in effect, after being "agreed by the DReps via an on-chain governance action with a threshold of greater than 50% of the active voting stake".
+- TREASURY-01a - The net change limit with governance action ID "gov_action1m3xx08yv788vfxqh6nfvrjtvmqpwezsy0ggaczctkyjmttc2wmxsq4jsr7q" is currently in effect, after being "agreed by the DReps via an on-chain governance action with a threshold of greater than 50% of the active voting stake".
 - TREASURY-02a - As per the above assessment, this treasury withdrawal does not exceed the current Net Change Limit.
 - TREASURY-03a - This treasury withdrawal is denominated in ada.
 
@@ -80,9 +80,9 @@ None
 This governance action sufficiently fulfils the criteria specified for treasury withdrawals in the Cardano Constitution, so is deemed constitutional.
 
 ## Internal Vote
-- Constitutional: 0
+- Constitutional: 5
 - Unconstitutional: 0
-- Abstain: 0
+- Abstain: 2
 - Did Not Vote: 0
 
 ## References
