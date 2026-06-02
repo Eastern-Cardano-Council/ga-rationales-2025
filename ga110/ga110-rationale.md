@@ -23,9 +23,9 @@ This governance action does not sufficiently fulfil the criteria specified for t
 
 ## Internal Vote
 - Constitutional: 0
-- Unconstitutional: 4
+- Unconstitutional: 5
 - Abstain: 2
-- Did Not Vote: 1
+- Did Not Vote: 0
 
 ## References
 None

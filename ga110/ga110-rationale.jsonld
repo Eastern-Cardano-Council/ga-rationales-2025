@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "@language": "en",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "RelevantArticles": "CIP136:RelevantArticles"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@container": "@set",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "did": "@id",
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "summary": "We have determined that this treasury withdrawal governance action is unconstitutional.",
+    "rationaleStatement": "The governance action with ID “gov_action19avrmrhm0gqa4qwlgvh4vxj6nwe02ay42h828cva2zt6n0asddfqqtgph5d” and title “[OriLife × TonFarm] Identifying 180 Million Durians Without Physical Labels” is a Treasury Withdrawal, so is subject to ARTICLE II, Section 7 of the Cardano Constitution.  While many of the requirements under this section were met by this governance action, it did not fulfil all of them.\n\nARTICLE II, Section 7(2) requires disclosure of whether the prospective recipient has received ada from the Cardano Treasury within the last 24 months, however this governance action does not provide any information in relation to this.\n\nARTICLE II, Section 7(6) states \"Any ada received from a Cardano Blockchain treasury withdrawal, so long as such ada is being held by an administrator prior to further disbursement to the Treasury Withdrawal Recipient, must be kept in one or more separate accounts that can be audited by the Cardano Community, and such accounts shall not be delegated to an SPO but must be delegated to the predefined abstain voting option.\"\n\nThe governance action provides a link to an external document called “Annex D — Fund Administration & Escrow Mechanism”, where it states that Intersect will be the administrator.  However, at the time of assessment the receiving address is delegated to both a stake pool (TIGER) and a DRep (FIMI), which contravenes the requirement stipulated in ARTICLE II, Section 7(6).\n\nWe therefore find this governance action **Unconstitutional**.",
+    "precedentDiscussion": "None",
+    "counterargumentDiscussion": "None",
+    "conclusion": "This governance action does not sufficiently fulfil the criteria specified for treasury withdrawals in the Cardano Constitution, so is deemed unconstitutional.",
+    "internalVote": {
+      "constitutional": 0,
+      "unconstitutional": 5,
+      "abstain": 2,
+      "didNotVote": 0
+    },
+    "references": []
+  },
+  "authors": [
+    {
+      "name": "Eastern Cardano Council",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "a12e0d6516828fd47afc70e2eccdfa11a4f4c76cb5eca55bdc9349865a70e4fe",
+        "signature": "15101d7b4f8251ef8db70ee84a244229a4fe502f9cf604cde1581344ab8088ab4152146cba91240018e81a00f7cb48eee61a891a14ee9a4e924d0e3e127a1a0e"
+      }
+    }
+  ]
+}

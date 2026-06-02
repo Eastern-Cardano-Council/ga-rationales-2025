@@ -80,10 +80,10 @@ None
 This governance action sufficiently fulfils the criteria specified for treasury withdrawals in the Cardano Constitution, so is deemed constitutional.
 
 ## Internal Vote
-- Constitutional: 4
+- Constitutional: 5
 - Unconstitutional: 0
 - Abstain: 2
-- Did Not Vote: 1
+- Did Not Vote: 0
 
 ## References
 None
