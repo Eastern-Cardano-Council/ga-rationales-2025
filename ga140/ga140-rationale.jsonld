@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "@language": "en",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "RelevantArticles": "CIP136:RelevantArticles"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@container": "@set",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "did": "@id",
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "summary": "We have determined that this treasury withdrawal governance action is unconstitutional.",
+    "rationaleStatement": "The governance action with ID “gov_action1pa6a6yd7pdaxed9nqkshtvtu7jmqe5c8cpf0ej4lnatjj588qkpsq2x2sz2” and title “Alchemy by Sundial x Charms: Cardano-Native Bitcoin Treasury Protocol” is a Treasury Withdrawal, so is subject to ARTICLE II, Section 7 of the Cardano Constitution. While most of the requirements under this section were met by this governance action, it did not fulfil them all.\n\nARTICLE II, Section 7(2) states \"\"Treasury Withdrawals\" actions shall disclose whether the prospective recipient of the \"Treasury Withdrawals\" action has received ada from the Cardano Treasury within the last 24 months.\"\n\nThe governance action does not provide any information about whether the \"prospective recipient\" has \"received ada from the Cardano Treasury within the last 24 months.\"\n\nRTICLE II, Section 7(5) states \"\"Treasury Withdrawals\" actions shall designate one or more administrators responsible for monitoring how the funds are used, and ensuring the deliverables are achieved.\"\n\nWhile the governance action states \"Intersect is proposed as interim fund administrator, subject to confirmation and final agreement. If Intersect does not confirm within 30 days of enactment, the proposer will nominate an alternative independent administrator, subject to community notice and appropriate constitutional review.\", this is not considered compliant, as Intersect has not agreed to perform this role.  A designated administrator must be confirmed, not \"proposed\".\n\nWe therefore find this governance action **Unconstitutional**.",
+    "precedentDiscussion": "None",
+    "counterargumentDiscussion": "None",
+    "conclusion": "This governance action does not sufficiently fulfil the criteria specified for treasury withdrawals in the Cardano Constitution, so is deemed unconstitutional.",
+    "internalVote": {
+      "constitutional": 0,
+      "unconstitutional": 4,
+      "abstain": 2,
+      "didNotVote": 1
+    },
+    "references": []
+  },
+  "authors": [
+    {
+      "name": "Eastern Cardano Council",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "a12e0d6516828fd47afc70e2eccdfa11a4f4c76cb5eca55bdc9349865a70e4fe",
+        "signature": "ce06f501bd4b3d322418f3a1c287420a06ce89c97f4b8f7b2592c8ec7ea419c0727877ea90685838c4b0589db225720b7da23542cad55e546aae5e04f6240204"
+      }
+    }
+  ]
+}
